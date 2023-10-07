@@ -4,9 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap" rel="stylesheet">
     <title>I30</title>
   </head>
   <body>
+    <script>
+         var countdownValue = 20;
+         var endValue = 6;
+         var x = setInterval(function() {
+         document.getElementById("seatsLeft").innerHTML = countdownValue + "+";
+         countdownValue--;
+     if (countdownValue < endValue) {
+        clearInterval(x);
+        document.getElementById("seatsLeft").innerHTML = endValue + "+";
+    }
+}, 100);
+var startValue = 0;
+var EndValue = 25;
+var y = setInterval(function(){
+    document.getElementById("yearsCount").innerHTML = startValue+ "+";
+    startValue++;
+    if(startValue >=  EndValue){
+        clearInterval(y);
+        document.getElementById("yearsCount").innerHTML=EndValue + "+";
+    }
+},100);
+var selectionstartValue = 0;
+    var selectionEndValue = 1000;
+    var z = setInterval(function() {
+        document.getElementById("selectedCount").innerHTML = selectionstartValue + "+";
+        selectionstartValue++;
+        if (selectionstartValue >= selectionEndValue) {
+            clearInterval(z);
+            document.getElementById("selectedCount").innerHTML = selectionEndValue + "+";
+        }
+    }, 1);
+    </script>
     <!-- start header section HTML -->
     <header class="headSection">
       <div>
@@ -27,7 +62,7 @@
             <span class="technique_text"> MY REDUCTION TECHNIQUE </span>
           </h3>
           <p class="physics_description">
-            What Was Only Available To Select Students In Kota, Now I’m Bringing
+            What Was Only Available To Select Students In Kota, Now I'm Bringing
             It To You Online
           </p>
           <p class="physics_description2">
@@ -41,7 +76,7 @@
         <div class="Batch_section">
           <div>
             <div class="seatsLeft_section">
-              <h1>6</h1>
+              <h1 id="seatsLeft" ></h1>
               <p>SEATS LEFT ONLY</p>
             </div>
           </div>
@@ -118,11 +153,11 @@
           <p class="des_sec2">Ex-Allen, Ex-Unacademy & Ex-PW</p>
         </div>
         <div class="experience_section">
-          <h1>25+</h1>
+          <h1 id="yearsCount" ></h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <div class="jeeSelection_section">
-          <h1>1000+</h1>
+          <h1 id="selectedCount" ></h1>
           <p>JEE SELECTIONS</p>
         </div>
         <div>
@@ -136,29 +171,60 @@
           <p>RS.4,999/-</p>
         </div>
       </div>
-      <div class="video_section" >
-        <video class="first_video"controls>
-            <source src="videos/sir-video.mp4" type="video/mp4">
-          </video>
+      <div class="video_section">
+        <video class="first_video" controls>
+          <source src="videos/sir-video.mp4" type="video/mp4" />
+        </video>
       </div>
     </section>
     <!-- End of Physics problems HTML section -->
 
     <!-- Start of Founders HTML section -->
     <section>
-        <div class="latestNews_mainDiv">
-            <div class="latestNews_section" >
-                <h1>
-                    LATEST NEWS:
-                </h1>
-                <P>The Sole Teacher to Crack the Unsolvable JEE Advanced Question in 2023, Defying All Odds!</P>
-            </div>
+      <div class="latestNews_mainDiv">
+        <div class="latestNews_section">
+          <h1>LATEST NEWS:</h1>
+          <p>
+            The Sole Teacher to Crack the Unsolvable JEE Advanced Question in
+            2023, Defying All Odds!
+          </p>
         </div>
-        <div class="images_section" >
-            <img  class="founders_picture"  src="images/founders.png" alt="founders">
-            <img class="isac_picture"src="images/ISAC.png" alt="ISAC">
-        </div>
+      </div>
+      <div class="images_section">
+        <img
+          class="founders_picture"
+          src="images/founders.png"
+          alt="founders"
+        />
+        <img class="isac_picture" src="images/ISAC.png" alt="ISAC" />
+      </div>
     </section>
     <!-- End of Founders HTML section -->
+
+    <!-- Start of Master Physics HTML section -->
+    <section class="masterPhysics_section" >
+        <div class="masterPhysics_des" >
+            <p>Master</p>
+            <p>Physics With</p>
+            <p>THE METHOD OF REDUCTION</p>
+        </div>
+        <div class="studentCoached_mainSec" >
+            <div class="studentCoached_section" >
+                <h1>10,000+</h1>
+                <p>Students Coached</p>
+            </div>
+            <div class="studentplaced_section" >
+                <h1>50%</h1>
+                <p> Students in IITs & Top Institution</p>
+            </div>
+        </div>
+        <div class="secondVideo_mainsec" >
+              <video class="second_video" controls>
+                <source src="videos/sir2.mp4" type="video/mp4" />
+              </video>
+        </div>
+        </div>
+    </section>
+    <!-- End of Master Physics HTML section -->
   </body>
 </html>

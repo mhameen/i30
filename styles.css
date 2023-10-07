@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
 }
 
 /* start css of header section  */
@@ -69,7 +70,7 @@
 .seatsLeft_section{
     background-color: black;
     width: 200px;
-    height: 85px;
+    height: 95px;
     margin: 10px 10px 10px 10px;
     color: white;
     display: flex;
@@ -78,7 +79,7 @@
     justify-content: center;
     border-radius: 15px;
     position: absolute;
-    top: 470px;
+    top: 500px;
 }
 .seatsLeft_section h1{
     font-size: 50px;
@@ -89,7 +90,7 @@
     height: 85px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 580px;
+    top: 610px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -106,7 +107,7 @@
     height: 85px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 680px;
+    top: 710px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -119,7 +120,7 @@
     height: 85px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 780px;
+    top: 810px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -132,7 +133,7 @@
     height: 85px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 880px;
+    top: 910px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -142,7 +143,7 @@
 .NeelmaniSir_section{
     background-color: white;
     width: auto;
-    height: 770px;
+    height: 780px;
     margin: 20px 30px 0px 30px;
     border-radius: 15px;  
 }
@@ -182,7 +183,7 @@
     height: 85px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 1400px;
+    top: 1450px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -202,7 +203,7 @@
     height: 85px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 1500px;
+    top: 1540px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -217,7 +218,7 @@
 }
 .fee_section{
     text-align: center;
-    padding-top: 220px;
+    padding-top: 200px;
     font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
@@ -229,7 +230,7 @@
     height: 65px;
     margin: 0px 10px 10px 10px;
     position: absolute;
-    top: 1680px;
+    top: 1725px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -259,7 +260,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     width: 280px;
-    height: 150px;
+    height: 175px;
     background-color: red;
     border-radius: 15px;
     display: flex;
@@ -302,62 +303,147 @@
 
 /* End of founders CSS section */
 
+/* Start of Master Physics CSS section */
+
+.masterPhysics_section{
+    background-color: black;
+    width: auto;
+    height: 420px;
+    margin: 20px 20px 0 20px;
+    border-radius: 15px;
+}
+.masterPhysics_des{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.studentCoached_section{
+    margin-top: 20px;
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.studentCoached_section h1 {
+   font-size: 30px;
+}
+.studentCoached_mainSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.studentplaced_section{
+    margin-top: 20px;
+    width: 250px;
+    height: 140px;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.studentplaced_section p{
+    width: 150px;
+}
+
+.studentplaced_section h1{
+    font-size: 35px;
+}
+
+.second_video{
+    width: 270px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.secondVideo_mainsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End of Master Physics CSS section */
+
+
 /* Start CSS for the mobile version where width is more than 375 */
 
 @media screen and (min-width: 375px) {
+    .Batch_section{
+        height: 530px;
+    }
     .seatsLeft_section{
         position: absolute;
-        top: 450px;
+        top: 480px;
         left: 53px;
         width: 250px;
     }
     .nextBatch_section{
         position: absolute;
-        top: 560px;
+        top: 600px;
         left:53px;
         width: 250px;
     }
     .calender_section{
         position: absolute;
-        top: 660px;
+        top: 700px;
         left:53px;
         width: 250px;
     }
     .liveClass_section{
         position: absolute;
-        top: 760px;
+        top: 800px;
         left:53px;
         width: 250px;
     }
     .weekly_section{
         position: absolute;
-        top: 860px;
+        top: 900px;
         left:53px;
         width: 250px;
     }
     .des_sec2{
-        margin-left: -60px;
+        margin-left: -50px;
     }
     .experience_section{
         position: absolute;
-        top: 1370px;
+        top: 1440px;
         left: 53px;
         width: 250px;
     }
     .jeeSelection_section{
         position: absolute;
-        top: 1470px;
+        top: 1540px;
         left: 53px;
         width: 250px;
     }
     .booknow_section{
         position: absolute;
-        top: 1630px;
+        top: 1725px;
         left: 53px;
         width: 250px;
     }
+    .fee_section{
+        margin-top: 30px;
+    }
     .NeelmaniSir_section{
-        height: 740px;
+        height: 780px;
     }
     .latestNews_section{
         width: 330px;
@@ -367,6 +453,10 @@
     }
     .isac_picture{
         width:330px;
+    }
+    .second_video{
+        width: 330px;
+        margin-top: 80px;
     }
   }
 
