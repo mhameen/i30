@@ -31,6 +31,7 @@
 
 .physics_background{
    background-color: black;
+   /* max-width: 400px; */
    width: auto;
    /* height: auto; */
    margin: 20px 20px 0 20px;
@@ -462,3 +463,86 @@
 
 
 /* End CSS for the mobile version where width is more than 375 */
+
+/* Start CSS for the mobile version where width is more than 425 */
+
+@media screen and (min-width: 425px) {
+    .Batch_section{
+        height: 530px;
+    }
+    .seatsLeft_section{
+        position: absolute;
+        top: 440px;
+        left: 53px;
+        width: 300px;
+    }
+    .nextBatch_section{
+        position: absolute;
+        top: 560px;
+        left:53px;
+        width: 300px;
+    }
+    .calender_section{
+        position: absolute;
+        top: 660px;
+        left:53px;
+        width: 300px;
+    }
+    .liveClass_section{
+        position: absolute;
+        top: 760px;
+        left:53px;
+        width: 300px;
+    }
+    .weekly_section{
+        position: absolute;
+        top: 860px;
+        left:53px;
+        width: 300px;
+    }
+    .des_sec2{
+        margin-left: -100px;
+    }
+    .experience_section{
+        position: absolute;
+        top: 1390px;
+        left: 53px;
+        width: 300px;
+    }
+    .jeeSelection_section{
+        position: absolute;
+        top: 1490px;
+        left: 53px;
+        width: 300px;
+    }
+    .booknow_section{
+        position: absolute;
+        top: 1680px;
+        left: 53px;
+        width: 300px;
+    }
+    .fee_section{
+        margin-top: 40px;
+    }
+    .NeelmaniSir_section{
+        height: 780px;
+    }
+    .latestNews_section{
+        width: 380px;
+    }
+    .founders_picture{
+        width:380px;
+    }
+    .isac_picture{
+        width:380px;
+    }
+    .second_video{
+        width: 380px;
+        margin-top: 80px;
+    }
+  }
+
+
+/* End CSS for the mobile version where width is more than 425 */
+
+
