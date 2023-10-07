@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start css of header section  */
+ 
+
+.headSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImage{
+    width: 100px;
+    height: 70px;
+}
+
+.home{
+    margin-top: 10px;
+}
+
+
+/* End css of header section  */
+
+/* Start css of Physics problems section */
+
+.physics_background{
+   background-color: black;
+   width: auto;
+   /* height: auto; */
+   margin: 20px 20px 0 20px;
+   border-radius: 15px;
+}
+.physics_headding{
+    text-align: center;
+    padding: 60px 10px 10px 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.technique_text{
+    color: red;
+    font-size: 16px;
+}
+
+.physics_description{
+    color: white;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    line-height: 1.4;
+}
+.physics_description2{
+    color: white;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    line-height: 1.4;
+}
+.Batch_section{
+    background-color: white;
+    width: inherit;
+    height: 505px;
+    margin: 20px 30px 0px 30px;
+    border-radius: 15px;
+}
+.seatsLeft_section{
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 470px;
+}
+.seatsLeft_section h1{
+    font-size: 50px;
+}
+.nextBatch_section{
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 580px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.batch_text{
+    color: white;
+    font-size: 10px;
+}
+.calender_section{
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 680px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.liveClass_section{
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 780px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weekly_section{
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 880px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.NeelmaniSir_section{
+    background-color: white;
+    width: auto;
+    height: 770px;
+    margin: 20px 30px 0px 30px;
+    border-radius: 15px;  
+}
+.NeelmaniSir_picture{
+    border-radius: 15px;
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+.NSsir_subsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name_text {
+ margin-top: 10px;
+}
+.NSsir_description{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.des_sec1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.des_sec2{
+    padding-top: 10px;
+}
+.experience_section{
+    color: White;
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 1400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience_section h1{
+    font-size: 45px;
+}
+.experience_section p{
+    font-size: 10px;
+}
+.jeeSelection_section{
+    color: White;
+    background-color: black;
+    width: 200px;
+    height: 85px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 1500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jeeSelection_section h1{
+    font-size: 45px;
+}
+.jeeSelection_section p{
+    font-size: 10px;
+}
+.fee_section{
+    text-align: center;
+    padding-top: 220px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.booknow_section{
+    color: White;
+    background-color: red;
+    width: 200px;
+    height: 65px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 1680px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* End css of Physics problems section */
+
+
+
+/* Start CSS for the mobile version where width is more than 375 */
+
+@media screen and (min-width: 375px) {
+    .seatsLeft_section{
+        position: absolute;
+        top: 450px;
+        left: 53px;
+        width: 250px;
+    }
+    .nextBatch_section{
+        position: absolute;
+        top: 560px;
+        left:53px;
+        width: 250px;
+    }
+    .calender_section{
+        position: absolute;
+        top: 660px;
+        left:53px;
+        width: 250px;
+    }
+    .liveClass_section{
+        position: absolute;
+        top: 760px;
+        left:53px;
+        width: 250px;
+    }
+    .weekly_section{
+        position: absolute;
+        top: 860px;
+        left:53px;
+        width: 250px;
+    }
+    .des_sec2{
+        margin-left: -60px;
+    }
+    .experience_section{
+        position: absolute;
+        top: 1370px;
+        left: 53px;
+        width: 250px;
+    }
+    .jeeSelection_section{
+        position: absolute;
+        top: 1470px;
+        left: 53px;
+        width: 250px;
+    }
+    .booknow_section{
+        position: absolute;
+        top: 1630px;
+        left: 53px;
+        width: 250px;
+    }
+    .NeelmaniSir_section{
+        height: 740px;
+    }
+  }
+
+
+/* End CSS for the mobile version where width is more than 375 */
