@@ -236,12 +236,71 @@
     justify-content: center;
     align-items: center;
 }
+.first_video{
+    width:310px ;
+    height:350px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.video_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 /* End css of Physics problems section */
 
+/* start of founders CSS section  */
 
+.latestNews_section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 150px;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.latestNews_mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latestNews_section h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.latestNews_section p{
+    text-align: center;
+    width: 250px;
+}
+.images_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.founders_picture{
+    margin-top: 15px;
+    width:280px;
+    height:150px;
+}
+.isac_picture{
+    margin-top: -25px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    width:280px;
+    height:180px;
+}
+
+/* End of founders CSS section */
 
 /* Start CSS for the mobile version where width is more than 375 */
 
@@ -299,6 +358,15 @@
     }
     .NeelmaniSir_section{
         height: 740px;
+    }
+    .latestNews_section{
+        width: 330px;
+    }
+    .founders_picture{
+        width:330px;
+    }
+    .isac_picture{
+        width:330px;
     }
   }
 
